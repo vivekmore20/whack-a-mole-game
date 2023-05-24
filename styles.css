@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.tab, .btns {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
 .container{
     height: 100vh;
     width:100vw;
@@ -18,7 +24,7 @@
     flex-direction: column;
     align-content: center;
     margin: 20px auto;
-
+    text-align: center;
 }
 .main h1{
     font-size: 54px;
@@ -62,4 +68,9 @@ button:hover{
     background: url('./image/mole.jpg');
     background-size: cover;
     
+}
+#timeLeft, #score{
+    width: 12rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px black;
 }
